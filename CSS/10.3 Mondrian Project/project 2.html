@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project 2</title>
+  <style>
+
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .container{
+      height: 80vh;
+      width: 800px;
+      display: grid;
+      grid-template-columns: 50px 50px 100px 50px 50px 75px 75px 75px 75px 50px 50px 40px 20px;
+      grid-template-rows:1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr ;
+      gap: 3px;
+      background-color: rgb(173, 207, 224);
+    }
+    .item{
+        background-color: blue;
+    }
+    .white1{
+        grid-column: span 2;
+        background-color: antiquewhite;
+    }
+    .white2{
+        grid-column: span 3;
+        background-color: antiquewhite;
+    }
+    .yellow1{
+        grid-column: span 2;
+        background-color: yellow;
+    }
+    .blue1{
+        grid-column: span 2;
+        grid-row: span 2;
+        background-color: rgb(41, 60, 230);
+    }
+    .yellow2{
+        background-color: yellow;
+    }
+    .black1{
+        background-color: black;
+    }
+    .white3{
+        grid-column: span 2;
+        background-color: antiquewhite;
+    }
+    .white4{
+        background-color: antiquewhite;
+        grid-row: span 2;
+    }
+    .red1{
+        background-color: red;
+        grid-column: span 4;
+        grid-row: span 4;
+    }
+    .yellow3{
+        background-color: yellow;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .yellow4{
+        background-color: yellow;
+        grid-column: span 2;
+    }
+    .white5{
+        background-color: antiquewhite;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .red2{
+        background-color: red;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .black2{
+        grid-column: span 2;
+        background-color: black;
+    }
+    .white6{
+        background-color: antiquewhite;
+        grid-row: span 3;
+    }
+    .white7{
+        background-color: antiquewhite;
+        grid-row: span 2;
+    }
+    .white8{
+        background-color: antiquewhite;
+        grid-row: span 2;
+    }
+    
+    .white9{
+        background-color: antiquewhite;
+        grid-column: span 2;
+    }
+    
+    .black3{
+        background-color:black;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .white10{
+        background-color: antiquewhite;
+        grid-column: span 2;
+    }
+    .white11{
+        background-color: antiquewhite;
+        grid-column: span 2;
+    }
+    .black4{
+        background-color: black;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .white12{
+        background-color: antiquewhite;
+        grid-column: span 2;
+    }
+    .white13{
+        background-color: antiquewhite;
+        grid-column: span 2;
+    }
+    
+    .white14{
+        background-color: antiquewhite;
+        grid-row: span 2;
+    }
+    .white15{
+        background-color: antiquewhite;
+        grid-row: span 2;
+    }
+    .blue2{
+        background-color: rgb(41, 60, 230);
+        grid-column: span 4;
+        grid-row: span 4;
+    }
+    .yellow5{
+        background-color: yellow;
+        grid-row: span 3;
+    }
+    .white16{
+        background-color: antiquewhite;
+        grid-column: span 2;
+    }
+    .blue3{
+        background-color: rgb(41, 60, 230);
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+    .white17{
+        background-color: antiquewhite;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .black5{
+        background-color: black;
+        grid-column: span 2;
+    }
+    .yellow6{
+        background-color: yellow;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .yellow7{
+        background-color: yellow;
+        grid-row: span 2;
+    }
+
+    .white18{
+        background-color:antiquewhite;
+        grid-row: span 2;
+    }
+    .red3{
+        background-color: red;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .white19{
+        background-color: antiquewhite;
+        grid-column: span 3;
+    }
+    .white20{
+        background-color: antiquewhite;
+    }
+    .black6{
+        background-color: black;
+    }
+    .white21{
+        background-color: antiquewhite;
+        grid-column: span 3;
+    }
+    .white22{
+        background-color: antiquewhite;
+    }
+
+
+
+
+
+
+  </style>
+</head>
+
+<body>
+ <div class="container">
+    <div class="item white1"></div>
+    <div class="item white2"></div>
+    <div class="item yellow1"></div>
+    <div class="item blue1"></div>
+    <div class="item yellow2"></div>
+    <div class="item black1"></div>
+    <div class="item white3"></div>
+    <div class="item white4"></div>
+    <div class="item red1"></div>
+    <div class="item yellow3"></div>
+    <div class="item yellow4"></div>
+    <div class="item white5"></div>
+    <div class="item red2"></div>
+    <div class="item black2"></div>
+    <div class="item white6"></div>
+    <div class="item white7"></div>
+    <div class="item white8"></div>
+    <div class="item white9"></div>
+    <div class="item black3"></div>
+    <div class="item white10"></div>
+    <div class="item white11"></div>
+    <div class="item black4"></div>
+    <div class="item white12"></div>
+    <div class="item white13"></div>
+    <div class="item white14"></div>
+    <div class="item white15"></div>
+    <div class="item blue2"></div>
+    <div class="item yellow5"></div>
+    <div class="item white16"></div>
+    <div class="item blue3"></div>
+    <div class="item white17"></div>
+    <div class="item black5"></div>
+    <div class="item yellow6"></div>
+    <div class="item yellow7"></div>
+    <div class="item white18"></div>
+    <div class="item red3"></div>
+    <div class="item white19"></div>
+    <div class="item white20"></div>
+    <div class="item black6"></div>
+    <div class="item white21"></div>
+    <div class="item white22"></div>
+  </div>
+
+</body>
+
+</html>
