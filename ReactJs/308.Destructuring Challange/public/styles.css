@@ -1,1 +1,39 @@
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 100px;
+  width: 400px;
+}
 
+div {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+th {
+  background-color: antiquewhite;
+}
+
+#t {
+  background-color: rgb(144, 171, 44);
+}
+#ts {
+  background-color: rgb(162, 119, 202);
+}
+
+#tc {
+  background-color: rgb(255, 0, 132);
+}
+#h {
+  background-color: rgb(215, 72, 44);
+}
+#hs {
+  background-color: rgb(70, 37, 190);
+}
+
+#hc {
+  background-color: rgb(27, 148, 196);
+}
